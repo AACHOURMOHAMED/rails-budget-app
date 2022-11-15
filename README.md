@@ -9,7 +9,7 @@ A mobile web application where you can manage your budget: you have a list of tr
 - Ruby on Rails
 
 ## Heroku
-coming soon
+https://masivebudget.herokuapp.com/
 
 ## Video
 https://www.loom.com/share/63afddb1328d4a9d930e61d8d96b36d1
