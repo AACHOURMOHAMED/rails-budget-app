@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   # set root for sign out
 
   devise_scope :user do
-    get '/users/sign_out' => 'devise/sessions#destroy' 
+    get '/users/sign_out' => 'devise/sessions#destroy'
     root "homes#index"
     resources :users, only: [:index]
     resources :groups do
